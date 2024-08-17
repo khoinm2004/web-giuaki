@@ -1,0 +1,50 @@
+body {
+   font-size: 1.1em;
+}
+figure {  
+   background-color: #EDEDDD;
+   border: 1pt solid #A8A8A8;
+   padding: 5px;
+   width: 150px;
+   top: 150px;
+   left: 200px;
+   position: absolute;
+
+}
+
+figcaption {
+   font-size: 1.25em;
+   background-color: yellow;
+   padding: 5px;
+   top: 90px;
+   left: 140px;
+   position: absolute;
+
+}
+figure{
+   position: absolute;
+   z-index: 5;
+}
+figcaption{
+   position: absolute;
+   z-index: 5;
+}
+figure{
+   position: absolute;
+   z-index: 1;
+}
+figcaption{
+
+   position: absolute;
+   z-index: 1;
+}
+figure{
+
+   position: absolute;
+   z-index: -1;
+}
+figcaption{
+
+   position: absolute;
+   z-index: -1;
+}

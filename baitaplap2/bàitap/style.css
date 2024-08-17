@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.review-section {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.review-section .glyphicon {
+    color: #f0ad4e;
+}
+
+.product-section h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.thumbnail {
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.add-to-cart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.add-to-cart a {
+    color: #333;
+    text-decoration: none;
+}
+
+.caption {
+    padding: 10px;
+}
+
+.caption h4 {
+    margin: 0;
+}
+
+.caption .ratings {
+    margin-top: 10px;
+}
+
+.caption .ratings p {
+    margin: 0;
+}
+
+.caption .glyphicon {
+    color: #f0ad4e;
+}
+
+.caption .glyphicon-star-empty {
+    color: #ddd;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
+
+.footer p {
+    margin: 0;
+    color: #777;
+}
+
+.header {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+    padding: 10px;
+}
+
+.reviews-section {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.review {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.review:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.review .stars {
+    color: #f0ad4e;
+    margin-bottom: 5px;
+}
+
+.review .stars .glyphicon-star-empty {
+    color: #ddd;
+}
+
+.review p {
+    margin: 0 0 5px;
+}
+
+.review strong {
+    font-size: 16px;
+}
+
+.review em {
+    font-style: italic;
+}
+
+.review-date {
+    color: #777;
+    font-size: 12px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
+
+.footer p {
+    margin: 0;
+    color: #777;
+}
+
+.footer a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+

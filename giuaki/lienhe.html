@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giới Thiệu Bản Thân</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Giới Thiệu <img src="image/1.jpg"alt="HTML" width="40" height="40" ></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="Về Tôi.html">Trang chủ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Kỹ năng Và kinh Nghiệm.html">Kỹ Năng và Kinh Nghiệm</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="lienhe.html">Hãy kết nối với tôi <span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+    </div>
+  </nav>
+
+  <section class="container my-5">
+    <h2>Liên Hệ</h2>
+    <form id="contactForm">
+      <div class="form-group">
+        <label for="name">Tên</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Tin nhắn</label>
+        <textarea class="form-control" id="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Gửi</button>
+    </form>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 [Nguyễn Minh Khôi]. Tất cả các quyền được bảo lưu(hehe).</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.header {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+    padding: 10px;
+}
+
+.col-md-9 .thumbnail {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.thumbnail .row {
+    margin-bottom: 20px;
+}
+
+.img-responsive {
+    margin-bottom: 10px;
+}
+
+.thumbnails .col-xs-3 {
+    padding: 5px;
+}
+
+.thumbnails .col-xs-3 img {
+    width: 100%;
+}
+
+.thumbnail .pull-right {
+    font-size: 18px;
+    margin-top: 0;
+    color: #333;
+}
+
+.thumbnail h4 {
+    margin: 10px 0;
+}
+
+.thumbnail p {
+    font-size: 14px;
+    color: #666;
+}
+
+.thumbnail form .form-group {
+    margin-bottom: 15px;
+}
+
+.thumbnail form .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.thumbnail form .btn-group .btn {
+    margin-right: 5px;
+}
+
+.thumbnail form .btn-group .btn:last-child {
+    margin-right: 0;
+}
+
+.thumbnail form .btn-success {
+    margin-left: 10px;
+}
+
+.thumbnail .description {
+    margin-top: 20px;
+}
+
+.thumbnail .ratings {
+    margin-top: 15px;
+}
+
+.thumbnail .ratings p {
+    margin: 0;
+}
+
+.thumbnail .ratings .pull-right {
+    font-size: 14px;
+    color: #777;
+}
+
+.thumbnail .ratings .glyphicon {
+    color: #f0ad4e;
+}
+
+.thumbnail .ratings .glyphicon-star-empty {
+    color: #ddd;
+}
+
+.well {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.well .text-right {
+    margin-bottom: 20px;
+}
+
+.well .text-right .btn-success {
+    margin-bottom: 10px;
+}
+
+.well .row {
+    margin-bottom: 15px;
+}
+
+.well .row .col-md-12 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.well .row .col-md-12:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.well .row .glyphicon {
+    color: #f0ad4e;
+}
+
+.well .row .glyphicon-star-empty {
+    color: #ddd;
+}
+
+.well .row p {
+    margin: 5px 0;
+}
+
+.well .row em {
+    font-style: italic;
+}
+
+.well .row .pull-right {
+    font-size: 12px;
+    color: #777;
+}

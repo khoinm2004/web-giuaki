@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <script src="ScriptTest.js" defer></script>
+</head>
+<body>
+    <form id="registrationForm">
+        <label for="name">Họ và tên:</label>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="email">Địa chỉ:</label>
+        <input type="text" id="email" name="email"><br>
+
+        <label>Giới tính:</label>
+        <input type="radio" id="male" name="gender" value="Nam">
+        <label for="male">Nam</label>
+        <input type="radio" id="female" name="gender" value="Nữ">
+        <label for="female">Nữ</label><br>
+
+        <label for="age">Tuổi:</label>
+        <input type="text" id="age" name="age"><br>
+
+        <label>Sở thích:</label>
+        <input type="checkbox" id="sports" name="hobbies" value="Thể thao">
+        <label for="sports">Thể thao</label>
+        <input type="checkbox" id="literature" name="hobbies" value="Văn học">
+        <label for="literature">Văn học</label>
+        <input type="checkbox" id="it" name="hobbies" value="Công nghệ thông tin">
+        <label for="it">Công nghệ thông tin</label>
+        <input type="checkbox" id="history" name="hobbies" value="Lịch sử">
+        <label for="history">Lịch sử</label>
+        <input type="checkbox" id="games" name="hobbies" value="Game">
+        <label for="games">Game</label><br>
+
+        <label for="specialization">Chuyên ngành:</label>
+        <select id="specialization" name="specialization">
+            <option value="Công nghệ Web">Công nghệ Web</option>
+            <!-- Add other options here -->
+        </select><br>
+
+        <label for="photo">Gửi hình:</label>
+        <input type="file" id="photo" name="photo"><br>
+
+        <label for="message">Yêu cầu:</label>
+        <textarea id="message" name="message"></textarea><br>
+
+        <button type="button" onclick="submitForm()">Gửi thông tin</button>
+        <button type="button" onclick="resetForm()">Nhập lại</button>
+    </form>
+</body>
+</html>
